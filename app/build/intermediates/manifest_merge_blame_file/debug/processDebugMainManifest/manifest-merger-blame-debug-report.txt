@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xposed.clashroyalebypass"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:4:5-22:19
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+13-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:7:9-42
+14        android:label="Clash Royale Bypass"
+14-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:5:9-44
+15        android:multiArch="true" >
+15-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:6:9-33
+16
+17        <!-- Xposed Module Metadata -->
+18        <meta-data
+18-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:10:9-12:36
+19            android:name="xposedmodule"
+19-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:11:13-40
+20            android:value="true" />
+20-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:12:13-33
+21        <meta-data
+21-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:13:9-15:85
+22            android:name="xposeddescription"
+22-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:14:13-45
+23            android:value="Native hook to bypass Clash Royale emulator detection" />
+23-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:15:13-82
+24        <meta-data
+24-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:16:9-18:34
+25            android:name="xposedminversion"
+25-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:17:13-44
+26            android:value="93" />
+26-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:18:13-31
+27        <meta-data
+27-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:19:9-21:54
+28            android:name="xposedscope"
+28-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:20:13-39
+29            android:resource="@array/xposed_scope" />
+29-->/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/AndroidManifest.xml:21:13-51
+30    </application>
+31
+32</manifest>

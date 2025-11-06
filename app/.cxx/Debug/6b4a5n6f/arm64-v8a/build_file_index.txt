@@ -1,0 +1,1 @@
+/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/CMakeLists.txt

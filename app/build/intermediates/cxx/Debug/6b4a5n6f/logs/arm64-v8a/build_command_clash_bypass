@@ -1,0 +1,4 @@
+/opt/homebrew/bin/ninja \
+  -C \
+  /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a \
+  clash_bypass

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/homebrew/bin/ninja",
+      "-C",
+      "/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/homebrew/bin/ninja",
+    "-C",
+    "/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "clash_bypass::@6890427a1f51a3e7e1df": {
+      "artifactName": "clash_bypass",
+      "abi": "arm64-v8a",
+      "output": "/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/libs/arm64-v8a/libclash_bypass.so",
+      "runtimeFiles": []
+    }
+  }
+}

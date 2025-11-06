@@ -1,0 +1,3 @@
+/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a/CMakeFiles/clash_bypass.dir
+/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/.cxx/Debug/6b4a5n6f/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' version '1.9.0'
+}
+
+android {
+    namespace 'com.xposed.clashroyalebypass'
+    compileSdk 34
+    
+    buildFeatures {
+        buildConfig = true
+    }
+    
+    defaultConfig {
+        applicationId "com.xposed.clashroyalebypass"
+        minSdk 28
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+        
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++17"
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+    }
+    
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    externalNativeBuild {
+        cmake {
+            path file('CMakeLists.txt')
+            version '3.25.1'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+    
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = false
+        }
+        resources {
+            excludes += ['META-INF/**', 'kotlin/**']
+        }
+    }
+    
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+    compileOnly 'de.robv.android.xposed:api:82:sources'
+}

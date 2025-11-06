@@ -1,0 +1,7 @@
+com.xposed.clashroyalebypass.app-pngs-0 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/build/generated/res/pngs/debug
+com.xposed.clashroyalebypass.app-resValues-1 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/build/generated/res/resValues/debug
+com.xposed.clashroyalebypass.app-packageDebugResources-2 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.xposed.clashroyalebypass.app-packageDebugResources-3 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.xposed.clashroyalebypass.app-debug-4 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.xposed.clashroyalebypass.app-debug-5 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/debug/res
+com.xposed.clashroyalebypass.app-main-6 /Users/jared/CascadeProjects/clash-royale-poc/kernel-build/xposed-module-native/app/src/main/res
