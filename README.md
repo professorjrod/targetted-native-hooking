@@ -1,4 +1,4 @@
-# Supercell Bypass - LSPosed Native Hook Module
+# LSPosed Native Hook Module
 
 This project hooks into the native libraries used in Android and disguises system props and stack trace. Works where Java hooks fail because we hook at the native level (libc.so)
 
