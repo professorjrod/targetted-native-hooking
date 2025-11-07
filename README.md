@@ -88,9 +88,13 @@ adb reboot
 5. Enable in LSPosed
 6. Reboot and test!
 
+## 💡 Why Android Studio?
 
-See **QUICK-BUILD-GUIDE.md** for troubleshooting and detailed instructions.
-
----
+Android Studio automatically:
+- Downloads Gradle
+- Downloads Android SDK
+- Downloads NDK (for native compilation)
+- Configures build environment
+- Handles all dependencies
 
 **The module is complete and ready to build. Just need Android Studio to compile it!**
